@@ -1,0 +1,82 @@
+[LOG 05:52:40.869] [ModuleManager] INFO: Adding post patch to the loading screen 3
+[LOG 05:52:41.464] [ModuleManager] Version 4.1.4.3 /L Experimental
+[LOG 05:52:41.860] [ModuleManager] INFO: Calling KSPe.KSP.11.ModuleManagerSupport.ModuleManagerAddToModList()
+[LOG 05:52:41.860] [ModuleManager] INFO: Calling KSPe.KSP.12.ModuleManagerSupport.ModuleManagerAddToModList()
+[LOG 05:52:41.861] [ModuleManager] INFO: Calling KSPe.KSP.13.ModuleManagerSupport.ModuleManagerAddToModList()
+[LOG 05:52:42.094] [ModuleManager] INFO: Checking Cache
+[LOG 05:52:42.217] [ModuleManager] INFO: SHA generated in 0.121s
+[LOG 05:52:42.218] [ModuleManager] INFO:       SHA = 4E-84-AD-6A-31-3F-75-2C-74-5C-DE-58-1B-09-44-5D-E6-0A-25-ED-60-53-AC-C3-D7-38-39-A2-14-45-5D-74
+[LOG 05:52:42.218] [ModuleManager] INFO: Pre patch init
+[LOG 05:52:42.356] [ModuleManager] INFO: compiling list of loaded mods...
+[LOG 05:52:42.359] [ModuleManager] INFO: Loading Physics.cfg
+[LOG 05:52:42.363] [ModuleManager] INFO: Extracting patches
+[LOG 05:52:42.379] [ModuleManager] INFO: Deleting root node in file ModC/config node: @PART[ModA-Part]:FOR[ModA]:NEEDS[ModA,ModB,ModC] as it can't satisfy its NEEDS
+[LOG 05:52:42.388] [ModuleManager] INFO: Applying patches
+[LOG 05:52:42.390] [ModuleManager] INFO: :INSERT (initial) pass
+[LOG 05:52:42.416] [ModuleManager] INFO: :FIRST pass
+[LOG 05:52:42.416] [ModuleManager] INFO: :LEGACY (default) pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :BEFORE[__LOCAL] pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :FOR[__LOCAL] pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :AFTER[__LOCAL] pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :BEFORE[000_KSPAPIEXTENSIONS] pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :FOR[000_KSPAPIEXTENSIONS] pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :AFTER[000_KSPAPIEXTENSIONS] pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :BEFORE[ASSEMBLY-CSHARP] pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :FOR[ASSEMBLY-CSHARP] pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :AFTER[ASSEMBLY-CSHARP] pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :BEFORE[KSP-1.1] pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :FOR[KSP-1.1] pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :AFTER[KSP-1.1] pass
+[LOG 05:52:42.418] [ModuleManager] INFO: :BEFORE[KSP-1.2] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :FOR[KSP-1.2] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :AFTER[KSP-1.2] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :BEFORE[KSP-1.3] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :FOR[KSP-1.3] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :AFTER[KSP-1.3] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :BEFORE[KSPAPIEXTENSIONS] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :FOR[KSPAPIEXTENSIONS] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :AFTER[KSPAPIEXTENSIONS] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :BEFORE[KSPE] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :FOR[KSPE] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :AFTER[KSPE] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :BEFORE[KSPE.UI] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :FOR[KSPE.UI] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :AFTER[KSPE.UI] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :BEFORE[KSPSTEAMCTRLR] pass
+[LOG 05:52:42.419] [ModuleManager] INFO: :FOR[KSPSTEAMCTRLR] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :AFTER[KSPSTEAMCTRLR] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :BEFORE[MODA] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :FOR[MODA] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :AFTER[MODA] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :BEFORE[MODC] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :FOR[MODC] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :AFTER[MODC] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :BEFORE[MODULEMANAGER] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :FOR[MODULEMANAGER] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :AFTER[MODULEMANAGER] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :BEFORE[MODULEMANAGERWATCHDOG] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :FOR[MODULEMANAGERWATCHDOG] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :AFTER[MODULEMANAGERWATCHDOG] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :BEFORE[SCALE_REDIST] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :FOR[SCALE_REDIST] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :AFTER[SCALE_REDIST] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :BEFORE[SQUAD] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :FOR[SQUAD] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :AFTER[SQUAD] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :BEFORE[STEAMWORKS.NET] pass
+[LOG 05:52:42.420] [ModuleManager] INFO: :FOR[STEAMWORKS.NET] pass
+[LOG 05:52:42.421] [ModuleManager] INFO: :AFTER[STEAMWORKS.NET] pass
+[LOG 05:52:42.421] [ModuleManager] INFO: :FINAL pass
+[LOG 05:52:42.421] [ModuleManager] INFO: Done patching
+[LOG 05:52:42.421] [ModuleManager] INFO: Saving Cache
+[LOG 05:52:42.462] [ModuleManager] INFO: Saving cache
+[LOG 05:52:42.587] [ModuleManager] INFO: ModuleManager: 0 patches applied (0 %)
+[LOG 05:52:42.587] [ModuleManager] INFO: Ran in 0.493s
+[LOG 05:53:18.368] [ModuleManager] INFO: Waited 0.000s for patching to finish
+[LOG 05:53:18.368] [ModuleManager] INFO: Applying patched game database
+[LOG 05:53:18.415] [ModuleManager] INFO: Reloading resources definitions
+[LOG 05:53:18.416] [ModuleManager] INFO: Reloading Trait configs
+[LOG 05:53:18.417] [ModuleManager] INFO: Reloading Part Upgrades
+[LOG 05:53:18.432] [ModuleManager] INFO: Running post patch callbacks
+[LOG 05:53:18.483] [ModuleManager] INFO: Post patch ran in 0.114s
+[LOG 05:53:47.459] [ModuleManager] INFO: Total loading Time = 66.594s
