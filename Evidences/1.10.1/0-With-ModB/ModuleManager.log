@@ -1,0 +1,67 @@
+[LOG 05:59:09.650] Log started at 2020-09-03 05:59:09.650
+[LOG 05:59:11.796] Checking Cache
+[LOG 05:59:12.051] SHA generated in 0.247s
+[LOG 05:59:12.051]       SHA = DA-A8-64-AD-4D-D7-F1-56-BA-25-29-D6-91-C2-11-AC-7B-81-A9-92-38-30-A7-1C-F9-CA-0F-60-7F-57-39-2D
+[LOG 05:59:12.200] Changes :
+Added   : ModA/config.cfg
+Added   : ModB/config.cfg
+Added   : ModC/config.cfg
+
+[LOG 05:59:12.200] Cache SHA = 21-32-99-D2-B4-6C-24-F3-37-8E-22-71-15-A1-F3-3F-C8-60-17-2C-7E-36-CA-20-3E-2C-5B-F4-D6-75-7E-FF
+[LOG 05:59:12.200] useCache = False
+[LOG 05:59:12.202] Pre patch init
+[LOG 05:59:12.467] compiling list of loaded mods...
+Mod DLLs found:
+  Name                                    Assembly Version         Assembly File Version    KSPAssembly Version      SHA256
+
+  Assembly-CSharp                         0.0.0.0                  0.0.0.0                  1.10                     4edcb7a211aacaa15e04721b0d38cc142d7548a2a8fb55f2f395e4532fe18add
+  ModuleManager                           4.1.4.0                  4.1.4.0                  2.5                      c3a771f61e578ac9e9d69ac642ddd98dde19de8e26635266876748c86b829d81
+  KSPSteamCtrlr                           0.0.1.35                 0.0.1.35                                          1675fa4fcb61d014eb1babe7eed703e7f76a1008537ee57ca7cec65cd9ff94ac
+Non-DLL mods added (:FOR[xxx]):
+  ModA
+Mods by directory (sub directories of GameData):
+  ModB
+  ModC
+  Squad
+  SquadExpansion
+Mods added by assemblies:
+
+[LOG 05:59:12.468] Loading Physics.cfg
+[LOG 05:59:12.476] Extracting patches
+[LOG 05:59:12.626] Applying patches
+[LOG 05:59:12.628] :INSERT (initial) pass
+[LOG 05:59:12.737] :FIRST pass
+[LOG 05:59:12.737] :LEGACY (default) pass
+[LOG 05:59:12.752] :BEFORE[ASSEMBLY-CSHARP] pass
+[LOG 05:59:12.752] :FOR[ASSEMBLY-CSHARP] pass
+[LOG 05:59:12.752] :AFTER[ASSEMBLY-CSHARP] pass
+[LOG 05:59:12.752] :BEFORE[KSPSTEAMCTRLR] pass
+[LOG 05:59:12.752] :FOR[KSPSTEAMCTRLR] pass
+[LOG 05:59:12.752] :AFTER[KSPSTEAMCTRLR] pass
+[LOG 05:59:12.752] :BEFORE[MODA] pass
+[LOG 05:59:12.752] :FOR[MODA] pass
+[LOG 05:59:12.754] Applying update ModC/config/@PART[ModA-Part]:FOR[ModA]:NEEDS[ModA,ModB,ModC] to ModA/config.cfg/PART[ModA-Part]
+[LOG 05:59:12.767] :AFTER[MODA] pass
+[LOG 05:59:12.767] :BEFORE[MODB] pass
+[LOG 05:59:12.767] :FOR[MODB] pass
+[LOG 05:59:12.767] :AFTER[MODB] pass
+[LOG 05:59:12.767] :BEFORE[MODC] pass
+[LOG 05:59:12.767] :FOR[MODC] pass
+[LOG 05:59:12.767] :AFTER[MODC] pass
+[LOG 05:59:12.767] :BEFORE[MODULEMANAGER] pass
+[LOG 05:59:12.767] :FOR[MODULEMANAGER] pass
+[LOG 05:59:12.767] :AFTER[MODULEMANAGER] pass
+[LOG 05:59:12.767] :BEFORE[SQUAD] pass
+[LOG 05:59:12.767] :FOR[SQUAD] pass
+[LOG 05:59:12.767] :AFTER[SQUAD] pass
+[LOG 05:59:12.767] :BEFORE[SQUADEXPANSION] pass
+[LOG 05:59:12.767] :FOR[SQUADEXPANSION] pass
+[LOG 05:59:12.767] :AFTER[SQUADEXPANSION] pass
+[LOG 05:59:12.769] :FINAL pass
+[LOG 05:59:12.769] Done patching
+[LOG 05:59:12.769] Saving Cache
+[LOG 05:59:12.914] Saving cache
+[LOG 05:59:13.318] ModuleManager: 1 patch applied
+
+[LOG 05:59:13.318] Ran in 1.522s
+[LOG 05:59:13.352] Done!

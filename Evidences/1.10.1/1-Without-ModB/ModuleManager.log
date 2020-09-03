@@ -1,0 +1,61 @@
+[LOG 06:05:57.408] Log started at 2020-09-03 06:05:57.408
+[LOG 06:05:59.229] Checking Cache
+[LOG 06:05:59.487] SHA generated in 0.253s
+[LOG 06:05:59.487]       SHA = 78-C4-72-AE-D5-FC-27-5C-5E-22-43-A9-4F-24-B8-B9-E2-9E-D8-CB-7F-EC-7A-D1-75-28-3D-01-14-A5-CB-90
+[LOG 06:05:59.570] Changes :
+Deleted : ModB/config.cfg
+
+[LOG 06:05:59.570] Cache SHA = DA-A8-64-AD-4D-D7-F1-56-BA-25-29-D6-91-C2-11-AC-7B-81-A9-92-38-30-A7-1C-F9-CA-0F-60-7F-57-39-2D
+[LOG 06:05:59.570] useCache = False
+[LOG 06:05:59.572] Pre patch init
+[LOG 06:05:59.825] compiling list of loaded mods...
+Mod DLLs found:
+  Name                                    Assembly Version         Assembly File Version    KSPAssembly Version      SHA256
+
+  Assembly-CSharp                         0.0.0.0                  0.0.0.0                  1.10                     4edcb7a211aacaa15e04721b0d38cc142d7548a2a8fb55f2f395e4532fe18add
+  ModuleManager                           4.1.4.0                  4.1.4.0                  2.5                      c3a771f61e578ac9e9d69ac642ddd98dde19de8e26635266876748c86b829d81
+  KSPSteamCtrlr                           0.0.1.35                 0.0.1.35                                          1675fa4fcb61d014eb1babe7eed703e7f76a1008537ee57ca7cec65cd9ff94ac
+Non-DLL mods added (:FOR[xxx]):
+  ModA
+Mods by directory (sub directories of GameData):
+  ModC
+  Squad
+  SquadExpansion
+Mods added by assemblies:
+
+[LOG 06:05:59.828] Loading Physics.cfg
+[LOG 06:05:59.835] Extracting patches
+[LOG 06:05:59.856] Deleting root node in file ModC/config node: @PART[ModA-Part]:FOR[ModA]:NEEDS[ModA,ModB,ModC] as it can't satisfy its NEEDS
+[LOG 06:05:59.986] Applying patches
+[LOG 06:05:59.989] :INSERT (initial) pass
+[LOG 06:06:00.097] :FIRST pass
+[LOG 06:06:00.097] :LEGACY (default) pass
+[LOG 06:06:00.101] :BEFORE[ASSEMBLY-CSHARP] pass
+[LOG 06:06:00.101] :FOR[ASSEMBLY-CSHARP] pass
+[LOG 06:06:00.101] :AFTER[ASSEMBLY-CSHARP] pass
+[LOG 06:06:00.101] :BEFORE[KSPSTEAMCTRLR] pass
+[LOG 06:06:00.101] :FOR[KSPSTEAMCTRLR] pass
+[LOG 06:06:00.101] :AFTER[KSPSTEAMCTRLR] pass
+[LOG 06:06:00.101] :BEFORE[MODA] pass
+[LOG 06:06:00.101] :FOR[MODA] pass
+[LOG 06:06:00.101] :AFTER[MODA] pass
+[LOG 06:06:00.101] :BEFORE[MODC] pass
+[LOG 06:06:00.101] :FOR[MODC] pass
+[LOG 06:06:00.101] :AFTER[MODC] pass
+[LOG 06:06:00.101] :BEFORE[MODULEMANAGER] pass
+[LOG 06:06:00.101] :FOR[MODULEMANAGER] pass
+[LOG 06:06:00.101] :AFTER[MODULEMANAGER] pass
+[LOG 06:06:00.101] :BEFORE[SQUAD] pass
+[LOG 06:06:00.101] :FOR[SQUAD] pass
+[LOG 06:06:00.101] :AFTER[SQUAD] pass
+[LOG 06:06:00.101] :BEFORE[SQUADEXPANSION] pass
+[LOG 06:06:00.101] :FOR[SQUADEXPANSION] pass
+[LOG 06:06:00.101] :AFTER[SQUADEXPANSION] pass
+[LOG 06:06:00.103] :FINAL pass
+[LOG 06:06:00.103] Done patching
+[LOG 06:06:00.104] Saving Cache
+[LOG 06:06:00.296] Saving cache
+[LOG 06:06:00.697] ModuleManager: 0 patches applied (0 %)
+
+[LOG 06:06:00.697] Ran in 1.467s
+[LOG 06:06:00.710] Done!
