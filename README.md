@@ -38,7 +38,7 @@ And that suits our needs.
 
 On a side note, [I advocate](https://forum.kerbalspaceprogram.com/index.php?/topic/179030-ksp-141-tweakscale-under-lisias-management-24321-2020-00804/&do=findComment&comment=3827049) the creation of a directive called `:THIS[]`, that would be the only one declaring presence of Add'Ons (without ordering the patch), waving this feature from `:FOR[]` - this would make things way easier, besides being not exactly necessary as we can almost simulate `:THIS[foobar]` with `:FOR[foobar]` (besides forcing the ordering), and the "new" proposed behaviour for `:FOR[]` can be simulated with `:FOR[foobar]:NEEDS[foobar]`.
 
-In a way or another, my solution for the triangular dependencies relies on `:FOR[target]:NEEDS[dependency]` to work as I expect - something constantly (and wrongly) disputed by a lot of Add'On Authors.
+In a way or another, my solution for the triangular dependencies relies on `:FOR[target]:NEEDS[target,dependency,yourself]` to work as I expect - something constantly (and wrongly) disputed by a lot of Add'On Authors.
 
 This P.H.D. Thesis :P aims to prove, definitively, that it works as I say it does.
 
