@@ -100,6 +100,15 @@ UrlConfig
 The sequence without `ModB` installed should be, obviously, different, and the `ModA-Part` should have the `tittle` untouched.
 
 
+## Conclusion
+
+As we can easily verify, there're no real dependencies between `:FOR` and `:NEEDS`. All we have is a clever sequence of well defined actions taken on well defined phases of the patching process.
+
+This technique can prevent the Race to the Bottom, currently on progress, to the `:LAST` phase - as well the not so straightforward solution of using `zzzSomething` on the GameData, used as an attempt to avoid the Race to the `:FINAL` but that ended up just creating a new Race to the Bottom on the `zzzz`, and later to the `zzzzz` and so goes on when triangular dependencies need to be handled.
+
+**One size does not fits all**: it's an exercise in futility to try to find a single, "simple", magical solution for every complex problem in existence.
+
+
 ## References
 
 * Forum
