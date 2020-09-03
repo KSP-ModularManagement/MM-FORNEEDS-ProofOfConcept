@@ -21,10 +21,10 @@ The experiment consists on two test runs:
 
 And the experiment was run on two different KSP versions:
 
-* KSP 1.3.1, using KSPe and MM /L Experimental.
+* KSP 1.3.1, using [KSPe](https://github.com/net-lisias-ksp/KSPAPIExtensions) and [MM /L Experimental](https://github.com/net-lisias-ksp/ModuleManager).
 	+ As side effect, demonstrates that MM can be easily back ported down to 1.3.1 when careful coding is applied. 
 		- And only **one** Unity call prevents it to be back ported to 1.2.2. For while. :) 
-* KSP 1.10.1, using **only** "Official" MM.
+* KSP 1.10.1, using **only** ["Official" MM](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*).
 
 ### Evidences
 
