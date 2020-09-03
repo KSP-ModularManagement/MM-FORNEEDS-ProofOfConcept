@@ -26,6 +26,8 @@ And the experiment was run on two different KSP versions:
 		- And only **one** Unity call prevents it to be back ported to 1.2.2. For while. :) 
 * KSP 1.10.1, using **only** ["Official" MM](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*).
 
+Further testing on different KSP versions was considered unneeded.
+
 ### Evidences
 
 The evidences for the test runs on my rig can be found below:
@@ -44,8 +46,6 @@ The *"source code"* for the stunt is [here](./GameData).
 Shove the ["*source*"](./GameData) into your GameData and fire up KSP. :)
 
 I recommend a completely empty GameData (but `Squad`) to make things easier and faster - testing on heavily modded KSPs will not test this thing, will only test Module Manager itself (that works!), but will not hurt. ;)
-
-Remove `GameData/ModB` for the second test.
 
 Check the MM Patching log for the following sequence of patching:
 
@@ -96,6 +96,8 @@ UrlConfig
 	}
 }
 ```
+
+Remove `GameData/ModB` for the second test.
 
 The sequence without `ModB` installed should be, obviously, different, and the `ModA-Part` should have the `tittle` untouched.
 
