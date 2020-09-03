@@ -1,4 +1,4 @@
-# ModuleManaher `:FOR[]:NEEDS[]` Proof of Concept
+# Module Manager `:FOR[]:NEEDS[]` Proof of Concept
 
 This is a Proof of Concept for using `:FOR[]:NEEDS[]` while patching third-parties add'ons for features introduced by one Add'On (and that not rarely depends of a third one).
 
@@ -23,7 +23,7 @@ And the experiment was run on two different KSP versions:
 
 * KSP 1.3.1, using KSPe and MM /L Experimental.
 	+ As side effect, demonstrates that MM can be easily back ported down to 1.3.1 when careful coding is applied. 
-		- And only **one** Unity call prevents it to be backported to 1.2.2. For while. :) 
+		- And only **one** Unity call prevents it to be back ported to 1.2.2. For while. :) 
 * KSP 1.10.1, using **only** "Official" MM.
 
 ### Evidences
