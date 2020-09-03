@@ -1,6 +1,6 @@
 # Module Manager `:FOR[]:NEEDS[]` Proof of Concept
 
-This is a Proof of Concept for using `:FOR[]:NEEDS[]` while patching third-parties add'ons for features introduced by one Add'On (and that not rarely depends of a third one).
+This is a Proof of Concept for using `:FOR[]:NEEDS[]` while patching third-parties add'ons for features introduced by one Add'On (and that not rarely depends on a third one).
 
 ## Introduction
 
