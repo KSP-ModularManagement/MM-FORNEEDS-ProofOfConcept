@@ -1,0 +1,65 @@
+[LOG 19:36:18.000] [ModuleManager] INFO: Adding post patch to the loading screen 2
+[LOG 19:36:18.355] [ModuleManager] Version 4.1.4.4 /L Experimental for KSP 1.2.2 DEBUG
+[LOG 19:36:18.679] [ModuleManager] INFO: Calling KSPe.KSP.11.ModuleManagerSupport.ModuleManagerAddToModList()
+[LOG 19:36:18.680] [ModuleManager] INFO: Calling KSPe.KSP.12.ModuleManagerSupport.ModuleManagerAddToModList()
+[LOG 19:36:18.923] [ModuleManager] INFO: Checking Cache
+[LOG 19:36:19.003] [ModuleManager] INFO: SHA generated in 0.078s
+[LOG 19:36:19.003] [ModuleManager] INFO:       SHA = 40-86-66-C7-73-28-D2-C5-42-6A-AE-E3-8C-35-55-D7-16-99-83-0B-F4-2F-61-56-1A-7E-72-60-4C-78-A5-1E
+[LOG 19:36:19.004] [ModuleManager] INFO: Pre patch init
+[LOG 19:36:19.145] [ModuleManager] INFO: compiling list of loaded mods...
+[LOG 19:36:19.147] [ModuleManager] INFO: Loading Physics.cfg
+[LOG 19:36:19.150] [ModuleManager] INFO: Extracting patches
+[LOG 19:36:19.168] [ModuleManager] INFO: Deleting root node in file ModC/config node: @PART[ModA-Part]:FOR[ModA]:NEEDS[ModA,ModB,ModC] as it can't satisfy its NEEDS
+[LOG 19:36:19.175] [ModuleManager] INFO: Applying patches
+[LOG 19:36:19.177] [ModuleManager] INFO: :INSERT (initial) pass
+[LOG 19:36:19.212] [ModuleManager] INFO: :FIRST pass
+[LOG 19:36:19.212] [ModuleManager] INFO: :LEGACY (default) pass
+[LOG 19:36:19.213] [ModuleManager] INFO: :BEFORE[000_KSPAPIEXTENSIONS] pass
+[LOG 19:36:19.213] [ModuleManager] INFO: :FOR[000_KSPAPIEXTENSIONS] pass
+[LOG 19:36:19.213] [ModuleManager] INFO: :AFTER[000_KSPAPIEXTENSIONS] pass
+[LOG 19:36:19.213] [ModuleManager] INFO: :BEFORE[ASSEMBLY-CSHARP] pass
+[LOG 19:36:19.213] [ModuleManager] INFO: :FOR[ASSEMBLY-CSHARP] pass
+[LOG 19:36:19.213] [ModuleManager] INFO: :AFTER[ASSEMBLY-CSHARP] pass
+[LOG 19:36:19.213] [ModuleManager] INFO: :BEFORE[KSP-1.1] pass
+[LOG 19:36:19.213] [ModuleManager] INFO: :FOR[KSP-1.1] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :AFTER[KSP-1.1] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :BEFORE[KSP-1.2] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :FOR[KSP-1.2] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :AFTER[KSP-1.2] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :BEFORE[KSPAPIEXTENSIONS] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :FOR[KSPAPIEXTENSIONS] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :AFTER[KSPAPIEXTENSIONS] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :BEFORE[KSPE] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :FOR[KSPE] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :AFTER[KSPE] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :BEFORE[KSPE.UI] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :FOR[KSPE.UI] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :AFTER[KSPE.UI] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :BEFORE[MODA] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :FOR[MODA] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :AFTER[MODA] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :BEFORE[MODC] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :FOR[MODC] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :AFTER[MODC] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :BEFORE[MODULEMANAGER] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :FOR[MODULEMANAGER] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :AFTER[MODULEMANAGER] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :BEFORE[SQUAD] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :FOR[SQUAD] pass
+[LOG 19:36:19.214] [ModuleManager] INFO: :AFTER[SQUAD] pass
+[LOG 19:36:19.215] [ModuleManager] INFO: :FINAL pass
+[LOG 19:36:19.215] [ModuleManager] INFO: Done patching
+[LOG 19:36:19.215] [ModuleManager] INFO: Saving Cache
+[LOG 19:36:19.245] [ModuleManager] INFO: Saving cache
+[LOG 19:36:19.349] [ModuleManager] INFO: ModuleManager: 0 patches applied (0 %)
+[LOG 19:36:19.349] [ModuleManager] INFO: Ran in 0.426s
+[LOG 19:37:13.705] [ModuleManager] INFO: Waited 0.000s for patching to finish
+[LOG 19:37:13.705] [ModuleManager] INFO: Applying patched game database
+[LOG 19:37:13.736] [ModuleManager] INFO: Running tests...
+[LOG 19:37:13.737] [ModuleManager] INFO: tests complete.
+[LOG 19:37:13.753] [ModuleManager] INFO: Reloading resources definitions
+[LOG 19:37:13.754] [ModuleManager] INFO: Reloading Trait configs
+[LOG 19:37:13.755] [ModuleManager] INFO: Reloading Part Upgrades
+[LOG 19:37:13.769] [ModuleManager] INFO: Running post patch callbacks
+[LOG 19:37:13.820] [ModuleManager] INFO: Post patch ran in 0.115s
+[LOG 19:37:43.749] [ModuleManager] INFO: Total loading Time = 85.751s
