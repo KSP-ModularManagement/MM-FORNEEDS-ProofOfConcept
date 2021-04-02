@@ -154,4 +154,4 @@ This technique can prevent the Race to the Bottom, currently on progress, to the
 ## References
 
 * Forum
-	+ On [Unkerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/&do=findComment&comment=3848345) 
+	+ On [Unkerballed Start](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/&do=findComment&comment=3848745), and addionally a confirmation [here](https://forum.kerbalspaceprogram.com/index.php?/topic/196589-1101-unkerballed-start-v120-under-new-management-aug-28-2020/&do=findComment&comment=3849076). 
