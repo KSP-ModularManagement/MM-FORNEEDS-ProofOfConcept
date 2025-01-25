@@ -1,0 +1,56 @@
+[LOG 15:05:10.562] Log started at 2025-01-25 15:05:10.562
+[LOG 15:05:12.091] Checking Cache
+[LOG 15:05:12.391] SHA generated in 0.297s
+[LOG 15:05:12.391]       SHA = 09-4A-34-FA-CD-F0-0E-59-29-2C-A7-79-91-1F-7C-E7-9C-5A-0E-4D-75-E4-F8-8B-65-A0-3F-AA-FE-30-CC-BF
+[LOG 15:05:12.393] Pre patch init
+[LOG 15:05:12.681] compiling list of loaded mods...
+Mod DLLs found:
+  Name                                    Assembly Version         Assembly File Version    KSPAssembly Version      SHA256
+
+  Assembly-CSharp                         0.0.0.0                  0.0.0.0                  1.12                     8a20892953fc14c02f352b393eb6712c665156d94a7d846d16c20a7de3e22f27
+  ModuleManager                           4.2.3.0                  4.2.3.0                  2.5                      95847827ab293b9e82a19b7efb97ffea3e98cc03b181862536ac8eb572e30d7d
+  KSPSteamCtrlr                           0.0.1.35                 0.0.1.35                                          1675fa4fcb61d014eb1babe7eed703e7f76a1008537ee57ca7cec65cd9ff94ac
+Non-DLL mods added (:FOR[xxx]):
+  ModA
+Mods by directory (sub directories of GameData):
+  ModC
+  Squad
+  SquadExpansion
+Mods added by assemblies:
+
+[LOG 15:05:12.685] Loading Physics.cfg
+[LOG 15:05:12.688] Extracting patches
+[LOG 15:05:12.706] Deleting root node in file ModC/config node: @PART[ModA-Part]:FOR[ModA]:NEEDS[ModA,ModB,ModC] as it can't satisfy its NEEDS
+[LOG 15:05:12.852] Applying patches
+[LOG 15:05:12.855] :INSERT (initial) pass
+[LOG 15:05:13.016] :FIRST pass
+[LOG 15:05:13.016] :LEGACY (default) pass
+[LOG 15:05:13.023] :BEFORE[ASSEMBLY-CSHARP] pass
+[LOG 15:05:13.023] :FOR[ASSEMBLY-CSHARP] pass
+[LOG 15:05:13.023] :AFTER[ASSEMBLY-CSHARP] pass
+[LOG 15:05:13.023] :BEFORE[KSPSTEAMCTRLR] pass
+[LOG 15:05:13.023] :FOR[KSPSTEAMCTRLR] pass
+[LOG 15:05:13.023] :AFTER[KSPSTEAMCTRLR] pass
+[LOG 15:05:13.023] :BEFORE[MODA] pass
+[LOG 15:05:13.023] :FOR[MODA] pass
+[LOG 15:05:13.023] :AFTER[MODA] pass
+[LOG 15:05:13.023] :BEFORE[MODC] pass
+[LOG 15:05:13.023] :FOR[MODC] pass
+[LOG 15:05:13.023] :AFTER[MODC] pass
+[LOG 15:05:13.023] :BEFORE[MODULEMANAGER] pass
+[LOG 15:05:13.023] :FOR[MODULEMANAGER] pass
+[LOG 15:05:13.023] :AFTER[MODULEMANAGER] pass
+[LOG 15:05:13.023] :BEFORE[SQUAD] pass
+[LOG 15:05:13.023] :FOR[SQUAD] pass
+[LOG 15:05:13.023] :AFTER[SQUAD] pass
+[LOG 15:05:13.023] :BEFORE[SQUADEXPANSION] pass
+[LOG 15:05:13.023] :FOR[SQUADEXPANSION] pass
+[LOG 15:05:13.023] :AFTER[SQUADEXPANSION] pass
+[LOG 15:05:13.025] :FINAL pass
+[LOG 15:05:13.026] Done patching
+[LOG 15:05:13.027] Saving Cache
+[LOG 15:05:13.280] Saving cache
+[LOG 15:05:15.755] ModuleManager: 0 patches applied (0 %)
+
+[LOG 15:05:15.755] Ran in 3.664s
+[LOG 15:05:15.801] Done!
