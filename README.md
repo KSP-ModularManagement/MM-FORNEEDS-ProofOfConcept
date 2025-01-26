@@ -23,4 +23,7 @@ To split the `:FOR` behaviour into two new MM patches (and not only one as previ
 ## References
 
 * Forum
+	+ On [TweakScale Thread](https://forum.kerbalspaceprogram.com/topic/179030-ksp-130-tweakscale-under-lisias-management-2488-2024-1117/?do=findComment&comment=3949924)
 	+ On [Module Manager's Thread](https://forum.kerbalspaceprogram.com/topic/50533-18x-112x-module-manager-423-july-03th-2023-fireworks-season/page/308/#comment-4438902), with a follow up [here](https://forum.kerbalspaceprogram.com/topic/50533-18x-112x-module-manager-423-july-03th-2023-fireworks-season/page/308/#comment-4438902). 
+* On this repo
+	+ [Affected Artefacts](./Docs/affected-artefacts.md) - a list of everything I had to fix or update due this fiasco.
